@@ -1,0 +1,335 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css");
+
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    background: #A60303;
+    background-image: url(https://www.transparenttextures.com/patterns/green-cup.png);
+
+}
+
+/*------------Começo do Topo---------*/
+
+
+
+/*------------Fim do Topo---------*/
+
+/*------------Começo da tabela---------*/
+   /*------------BootStrap-------*/
+
+   .table_responsive{
+    margin-bottom: 50px;
+}
+
+.tabela {
+    display: flex;
+    flex: 1;
+    margin: 3% 6%;
+   
+
+}
+
+
+.table {
+    border-color: #f1c40f !important;
+    border-radius: 2px;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 15px;
+    
+}
+
+.tabela-titulo {
+    font-weight: bold;
+    text-transform: uppercase;
+    background: #34495e;
+
+}
+
+.table thead th {
+    color: #ffffff;
+    background-color: #4b4949f2;
+
+}
+
+.table-striped>tbody>tr:nth-of-type(odd)>* {
+    --bs-table-color-type: #000000;
+    --bs-table-bg-type: #e3e3e3;
+
+
+}
+
+
+.table>:not(caption)>*>* {
+    background-color: #ffffff;
+}
+
+
+
+.info-lista {
+    text-align: center;
+    padding: 20px;
+    font-size: 2em;
+    color: black;
+
+}
+
+
+
+
+.cadastrar {
+    display: flex;
+    text-align: end;
+    font-size: 1.4em;
+    padding-right: 15px;
+    flex-direction: row;
+    justify-content: flex-end;
+    color: #ffc107;
+    text-decoration-color: #ffc107;
+}
+
+.atualizar{
+    color: #198754;
+    text-decoration-color: #198754;
+}
+
+.desativar{
+    color: red;
+    text-decoration-color: red;
+}
+
+
+/*------------Fim da tabela---------*/
+
+/*------------Começo do Menu---------*/
+
+.menu {
+    margin-right: 20px;
+    max-width: 15%;
+    width: 50%;
+    text-align: center;
+    padding: 15px 0px;
+    border-radius: 20px;
+    max-height: 724px;
+
+}
+
+
+.menu ul{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+.menu li{
+    background: #2f2c2cf2;
+    ;
+    padding: 5px;
+    border-radius: 15px;
+    margin: 15px 0;
+}
+
+.menu li a {
+    margin: 10px;
+    font-size: 1.6em;
+    color: #ffffff;
+    line-height: 2.3em;
+    text-decoration: none;
+
+}
+
+
+.menu li a:hover {
+    color: #f1c40f;
+}
+
+
+.menuAtivo {
+    color: #f1c40f !important;
+}
+
+
+.menu a{
+    padding: 18px 0px
+}
+/*------------Fim do Menu---------*/
+
+/*------------Começo do Conteudo---------*/
+
+.conteudo{
+    background: #ffffff;
+    background-image: url(https://www.transparenttextures.com/patterns/concrete-wall.png);
+    width: 100%;
+    border-radius: 10px;
+    border: solid 2px #000000;
+
+}
+
+
+
+
+/*------------Começo do Rodape---------*/
+
+.rodape {
+    text-align: center;
+}
+
+.rodape section:nth-child(1) {
+    background: #477F3C;
+}
+
+
+.rodape section:nth-child(2) {
+    background: #A60303;
+}
+
+
+.rodape section:nth-child(1) h2 {
+    color: black;
+    padding: 15px 0;
+}
+
+
+.rodape section:nth-child(2) h2 {
+    color: white;
+    padding: 15px 0;
+}
+
+/*------------Fim do Rodape---------*/
+
+
+@media (min-width: 1200px) {
+
+    .h2,
+    h2 {
+        font-size: 1rem;
+    }
+}
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-top: 0;
+    margin-bottom: 0.0rem;
+    font-weight: 500;
+    line-height: 1.0;
+    font-size: 1;
+}
+
+
+.display-4 {
+    color: #000000;
+    text-align: center;
+}
+
+
+
+
+
+
+/*------------Começo do Cadastro Exercicios---------*/
+.formulario-exercicio {
+    display: flex;
+    margin: 5%;
+    background: #ffffff;
+    border-radius: 40px;
+    padding: 2%;
+
+}
+
+
+.formulario-exercicio label,
+legend {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.formulario-exercicio input {
+    color: #34495e;
+    border: solid 2px #34495e;
+}
+
+.formulario-exercicio select {
+    color: #34495e;
+    border: solid 2px #34495e;
+}
+
+
+.foto-exercicio {
+    width: 30%;
+    margin: 0 5%;
+    color: #34495e;
+    border: solid 2px #34495e;
+    padding: 20px;
+    border-radius: 50px;
+
+}
+
+.foto-exercicio input {
+    /* height: 367px; */
+    margin-bottom: 15px;
+}
+
+.foto-exercicio img {
+    width: 100%;
+    max-height: 305px;
+}
+
+.nome-exercicio {
+    margin-right: 5%;
+    width: 50%;
+}
+
+
+.formulario-exercicio fieldset div:nth-child(1) {
+    width: 20%;
+}
+
+
+.formulario-exercicio fieldset div:nth-child(2) {
+    width: 80%;
+}
+
+
+.nome-exercicio div:nth-child(5) {
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+
+/* Dashboard */
+.dashboard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #e3e3e3;
+    
+}
+
+
+.dashboard div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #e3e3e3;
+    margin-top: 35px;
+}

@@ -1,0 +1,483 @@
+/*++++++++++++++++++++++++++++++++++
+    
+    Notes:
+
+++++++++++++++++++++++++++++++++++++*/
+
+
+
+/*++++++++++++++++++++++++++++++++++
+    
+    Tablets:601 até 7
+
+++++++++++++++++++++++++++++++++++++*/
+
+
+
+/*++++++++++++++++++++++++++++++++++
+    
+    Smartphones: 0 até 600
+
+++++++++++++++++++++++++++++++++++++*/
+
+
+@media not all and (max-width: 600px) {
+
+    .abrir-menu,
+    .fechar-menu {
+        display: none;
+    }
+}
+
+
+@media (max-width: 600px) {
+
+
+    header h1 {
+        margin-left: 2%;
+    }
+
+    .menu {
+        background: #f1c40fd7;
+        height: 100%;
+        position: fixed;
+        z-index: 10;
+        width: 50%;
+        max-width: 300px;
+        top: 0;
+        margin: 0;
+        right: -301px;
+        transition: right .5s ease-out;
+    }
+
+    .menu-mobile .menu {
+        right: 0;
+    }
+
+    .abrir-menu {
+        background: url(../img/imagem/botao-de-menu-de-tres-linhas-horizontais.png);
+        background-size: cover;
+        padding: 20px;
+        border: 0;
+        display: block;
+        margin-right: 10px;
+    }
+
+    .menu .fechar-menu {
+        background: url(../img/imagem/fechar-o-simbolo-da-cruz-em-um-circulo.png);
+        background-size: cover;
+        padding: 10%;
+        width: 0%;
+        border: 0;
+        display: block;
+        margin: 4%;
+    }
+
+    .menu {
+        flex-direction: column;
+        justify-content: start;
+    }
+
+    .menu ul {
+        flex-direction: column;
+        margin-left: 0;
+    }
+
+    .subMenu:hover ul {
+        position: relative;
+    }
+
+    .menu button {
+        width: 21%;
+        margin: 0 auto;
+    }
+
+/*----------------Banner----------------*/
+
+
+
+.banner .slick-prev:before,
+.banner .slick-next:before {
+    font-size: 30px;
+    
+}
+
+
+
+.banner .slick-dots li button:before {
+    font-size: 30px;
+  
+}
+
+/*---------------Dia---------------------------*/
+.dia {
+  
+    font-size: 2em;
+    padding: 30px;
+
+}
+
+
+
+
+
+    /*---------------Cardapio---------------------------*/
+
+.cardapio{
+    padding: 25px 0;
+}
+
+
+.cardapio h2{
+    color: rgb(0, 0, 0);
+    font-size: 3.8em;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 60px;
+    
+}
+
+
+
+.cardapio div div {
+    flex-direction: column;
+    width: 75%;
+    margin: 0 auto;
+    
+}
+
+
+
+
+
+.cardapio img {
+    width: 100%;
+    border-radius: 50px 50px 50px 50px;
+    padding-bottom: 15px;
+}
+
+
+
+.cardapio p{
+    text-align: justify;
+    font-size: 1.2em;
+    line-height: 1.8em;
+    text-indent: 2em;
+    padding-bottom: 15px; 
+}
+
+
+
+.cardapio button {
+    align-self: center;
+    padding: 10px 25px;
+    border-radius: 10px;
+    border: none;
+    font-size: 1.2em;
+    margin-bottom: 25px;
+    cursor: pointer;
+    background: #f1c40f;
+}
+
+
+
+
+.cardapio button:hover {
+    background: black;
+    color: crimson;
+}
+
+
+
+/*-------------------Quem somos------------------------*/
+
+.sobre {
+    padding: 25px 10px;
+}
+
+
+.sobre p{
+    padding: 10px;
+}
+
+.sobre div div {
+    flex-direction: column;
+}
+
+
+
+.sobre div div div {
+    width: 60%;
+    padding: 0px 25px;
+    margin: 0 auto;
+}
+
+
+
+.sobre img {
+    width: 85%;
+    border-radius: 25px;
+}
+
+
+.sobre div div div:nth-child(1) {
+    padding-right: 25px;
+    justify-content: start;
+    padding-left: 25px;
+    display: contents;
+}
+
+
+
+/*-----------------Galeria------------------*/
+
+.galeria .slick-center {
+    transform: scale(1);
+    padding: 0;
+}
+
+.galeria {
+    padding: 30px 0;
+    display: flex;
+
+}
+
+
+.galeria img {
+    width: 50%;
+    border-radius: 50px;
+    margin: 0 25px;
+}
+
+
+
+
+
+/*-----------------Você Sabia------------------*/
+
+
+.sabia div{
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    margin: 25px 0px;
+}
+
+.sabia div div{
+    width: 15%;
+    border: solid 2px #000000;
+    padding: 50px;
+
+}
+
+
+.sabia h3{
+    text-align: center;
+    font-size: 1.2em;
+    margin: 2% auto;
+}
+
+
+
+
+
+/*----------------Rodape-----------------*/
+.rodape {
+    text-align: center;
+}
+
+
+.rodape section:nth-child(1) {
+    padding: 25px 10px;
+    background: #A60303;
+}
+
+
+
+.rodape section div{
+    flex-direction: column;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.rodape section div div {
+    flex-direction: column;
+    width: 50%;
+}
+
+.rodape section div div:nth-child(1) {
+    flex-direction: column;
+    width: 70%;
+}
+
+
+
+
+.rodape div div img{
+    width: 75%;
+    margin: 0 auto;
+    background: #BF0704;
+    border-radius: 10px;
+}
+
+
+.rodape div div:nth-child(3) img:nth-child(4){
+    width:100%;
+    background: none;
+}
+
+
+.rodape section:nth-child(1) h2{
+    font-size: 32px;
+    letter-spacing: 0px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.rodape h3{
+    margin: 10px;
+    font-size: 1.2em;
+    line-height: 1.2em;
+}
+
+
+
+.rodape ul {
+    display: flex;
+    justify-content: center;
+}
+
+
+.rodape li {
+    margin: 0 2%;
+}
+
+
+.rodape ul li a {
+    display: block;
+    width: 70px;
+}
+
+
+.rodape ul li a img {
+    width: 60%;
+    background: none;
+
+}
+
+}
+
+
+
+
+/*#################################################################*/
+/*----------------------Promoções----------------------------------*/
+
+
+/*++++++++++++++++++++++++++++++++++
+    
+    Smartphones: 0 até 600
+
+++++++++++++++++++++++++++++++++++++*/
+
+
+@media not all and (max-width: 600px) {
+
+    .abrir-menu,
+    .fechar-menu {
+        display: none;
+    }
+}
+
+
+@media (max-width: 600px) {
+
+
+
+
+/*galeria de imagem pagina promoção*/
+
+ .promocao h2{
+    font-size: 3.8em;
+    margin-bottom: 60px; 
+}
+
+.promocao{
+    padding: 25px 0;
+
+}
+
+
+
+.promocao div{
+   flex-direction: column;
+   width: 75%;
+   margin: 0 auto;
+    
+}
+
+
+
+.promocao img {
+    padding-top: 15px;
+}
+
+
+
+
+/* Nossa promo de imagem pagina promoção*/
+
+
+    .sobrePromacao {
+        padding: 25px 0;
+        text-align: center;
+        background: #ffffff;
+    }
+
+    .sobrePromacao h2 {
+        font-size: 1.8em;
+        margin-bottom: 20px;
+    }
+
+    .sobrePromacao div div {
+        flex-direction: column;
+    }
+
+    .sobrePromacao div div div {
+        width: 95%;
+        padding: 0px 1%;
+    }
+
+    .sobrePromacao img {
+        border-radius: 50px 50px 0 0;
+        margin-bottom: 2%;
+    }
+
+    .sobrePromacao div div div:nth-child(1) {
+        padding-left: 0;
+    }
+
+    .sobrePromacao div div div:nth-child(2) {
+        padding-right: 0;
+        border-radius: 0 0 50px 50px;
+    }
+
+    .sobrePromacao p {
+        font-size: 1.2em;
+        line-height: 1.8em;
+        padding: 15px;
+    }
+
+
+
+
+}
+
+
+
+
+
+
+
+

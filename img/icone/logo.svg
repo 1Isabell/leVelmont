@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Camada_1" data-name="Camada 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 153.83 90.9">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 60px;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        font-family: BellMT, 'Bell MT';
+      }
+
+      .cls-1, .cls-2, .cls-4 {
+        fill: #f7f7f8;
+      }
+
+      .cls-2 {
+        font-size: 25px;
+      }
+
+      .cls-3 {
+        fill: #e6b54a;
+        font-size: 12px;
+      }
+
+      .cls-4 {
+        font-family: Castellar, Castellar;
+        font-size: 80px;
+      }
+    </style>
+  </defs>
+  <text class="cls-3" transform="translate(9.82 62.8) rotate(-89.87)"><tspan x="0" y="0">Pizzaria</tspan></text>
+  <text class="cls-4" transform="translate(1.39 68.6)"><tspan x="0" y="0">l</tspan></text>
+  <text class="cls-2" transform="translate(50.9 68.6)"><tspan x="0" y="0">e</tspan></text>
+  <text class="cls-1" transform="translate(54.45 68.6)"><tspan x="0" y="0">V</tspan></text>
+  <text class="cls-2" transform="translate(82.47 69.26)"><tspan x="0" y="0">elmont</tspan></text>
+</svg>

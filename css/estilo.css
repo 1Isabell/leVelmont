@@ -1,0 +1,918 @@
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=Josefin+Sans:wght@100;200;300;400;500;600;700&display=swap');
+
+
+*,
+a {
+    font-family: 'josefin Sans', sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.site {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+
+
+
+
+
+
+/*#########################################################*/
+/*-------------------Página Home---------------------------*/
+
+
+/*-----------------Topo----------------- */
+
+header {
+    background: #BF0704;
+}
+
+header div h1 {
+    background: url(../img/icone/logo.svg) no-repeat;
+    padding: 30px 100px;
+    display: block;
+    text-indent: -9999px;
+}
+
+
+
+header div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+header div ul {
+    display: flex;
+}
+
+
+
+header div a {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+header div a:nth-child(2) {
+    margin-left: -15px;
+}
+
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.menu ul {
+    margin-left: -20%;
+}
+
+
+.menu ul li {
+    padding: 10px 0;
+}
+
+
+.menu a {
+    color: white;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    display: block;
+    margin: 0 15px;
+    font-family: 'Caprasimo', cursive;
+}
+
+
+.menu a:hover {
+    color: #F2CB05
+}
+
+
+header img {
+    width: 10%;
+}
+
+
+.menu button {
+    background: url(../img/icone/usuario.svg) no-repeat;
+    background-size: cover;
+    text-indent: -9999px;
+    border: 0;
+    padding: 20px 28px;
+}
+
+/*----------------Banner----------------*/
+
+.banner img {
+    width: 100%;
+}
+
+.slick-dotted.slick-slider {
+    margin-bottom: 0px;
+}
+
+.banner .slick-next {
+    right: 35px;
+}
+
+
+.banner .slick-prev {
+    left: 35px;
+    z-index: 1;
+}
+
+
+.banner .slick-prev:before,
+.banner .slick-next:before {
+    font-family: 'slick';
+    font-size: 40px;
+    line-height: 1;
+    opacity: .75;
+    color: #f1c40f;
+}
+
+
+.banner .slick-dots {
+    bottom: 25px;
+}
+
+
+.banner .slick-dots li {
+    margin: 0 20px;
+}
+
+
+.banner .slick-dots li button:before {
+    font-size: 40px;
+    color: #F2CB05;
+}
+
+
+.banner .slick-dots li.slick-active button:before {
+    opacity: .75;
+    color: #BF0704;
+}
+
+
+/*---------------Dia---------------------------*/
+.dia {
+    background-color: #301d0f !important;
+    background-image: url(../img/imagem/fundo-dia.png);
+
+    text-align: center;
+    font-size: 3em;
+    padding: 30px;
+    color: #ffffff;
+
+}
+
+/*---------------Cardapio---------------------------*/
+
+
+
+.cardapio {
+    padding: 50px 0;
+    text-align: center;
+    background: #ffffff;
+    background-image: url("https://www.transparenttextures.com/patterns/concrete-wall.png");
+
+}
+
+
+
+.cardapio h2 {
+    color: rgb(0, 0, 0);
+    font-size: 3.8em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 60px;
+}
+
+.cardapio h3 {
+    color: rgb(0, 0, 0);
+    font-size: 2em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 60px;
+
+}
+
+
+
+.cardapio div div {
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+
+
+
+
+.cardapio img {
+    width: 100%;
+    border-radius: 50px 50px 50px 50px;
+    padding-bottom: 15px;
+}
+
+
+
+.cardapio p {
+    text-align: justify;
+    font-size: 1.2em;
+    line-height: 1.8em;
+    text-indent: 2em;
+    padding-bottom: 15px;
+}
+
+
+
+.cardapio button {
+    align-self: center;
+    padding: 10px 25px;
+    border-radius: 10px;
+    border: none;
+    font-size: 1.2em;
+    margin-bottom: 25px;
+    cursor: pointer;
+    background: #f1c40f;
+}
+
+
+
+
+.cardapio button:hover {
+    background: black;
+    color: crimson;
+}
+
+/*-------------------Quem somos------------------------*/
+
+
+
+
+
+.fundoSobre {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    background: white;
+    border-radius: 50px;
+}
+
+
+
+.sobre {
+    padding: 50px 0;
+    text-align: center;
+    background-color: #A60303;
+    background-image: url("https://www.transparenttextures.com/patterns/green-cup.png");
+}
+
+
+
+.sobre h2 {
+    font-size: 48px;
+    line-height: 70px;
+    font-weight: 800;
+    letter-spacing: 0px;
+    margin-bottom: 15px;
+
+}
+
+
+
+.sobre div div {
+    display: flex;
+    flex-direction: column;
+    background-image: url(https://www.transparenttextures.com/patterns/concrete-wall.png);
+}
+
+
+
+.sobre div div div {
+    width: 48%;
+    padding: 0px 25px;
+}
+
+
+
+.sobre img {
+    width: 60%;
+    border-radius: 50px 50px 50px 50px;
+    margin: 0 auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+
+.sobre div div div:nth-child(1) {
+    flex-direction: column;
+    padding-right: 25px;
+    justify-content: start;
+    padding-left: 25px;
+}
+
+
+
+.sobre p {
+    text-align: justify;
+    font-size: 1.4em;
+    line-height: 1.3em;
+    text-indent: 2em;
+    margin: 0px 40px;
+}
+
+
+
+
+/*-----------------Galeria------------------*/
+
+
+.galeria {
+    padding: 30px 0;
+    display: flex;
+    background: #ffffff;
+    background-image: url(https://www.transparenttextures.com/patterns/concrete-wall.png);
+}
+
+
+.galeria img {
+    width: 50%;
+    border-radius: 50px;
+    margin: 0 25px;
+}
+
+
+.galeria .slick-next {
+    right: 35px;
+}
+
+
+.galeria .slick-prev {
+    left: 35px;
+    z-index: 1;
+}
+
+
+.galeria .slick-prev:before,
+.galeria .slick-next:before {
+    font-family: 'slick';
+    font-size: 40px;
+    line-height: 1;
+    opacity: .75;
+    color: #f1c40f;
+}
+
+
+.galeria .slick-dots li {
+    margin: 0 20px;
+}
+
+
+.galeria .slick-dots li button:before {
+    font-size: 20px;
+
+}
+
+
+.galeria .slick-dots li.slick-active button:before {
+    color: #F2CB05;
+}
+
+.banner .slick-dots li {
+    margin: 0 20px;
+}
+
+
+.banner .slick-dots li button:before {
+    font-size: 40px;
+    color: #f1c40f;
+}
+
+
+/*-----------------Você Sabia------------------*/
+
+.sabia {
+    padding: 50px 0;
+    background: #ffffff;
+    background-image: url(https://www.transparenttextures.com/patterns/concrete-wall.png);
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.sabia img{
+    width: 100%'';
+}
+
+
+.sabia div {
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+
+.sabia div div {
+    display: flex;
+    flex-direction: column;
+    width: 10%;
+    border: solid 2px #000000;
+    padding: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+.sabia h2 {
+    font-size: 48px;
+    line-height: 70px;
+    font-weight: 800;
+    letter-spacing: 0px;
+    margin-bottom: 15px;
+    text-align: center;
+
+}
+
+.sabia h3 {
+    color: #000000;
+    font-size: 2em;
+}
+
+
+
+
+/*----------------Rodape-----------------*/
+
+.rodape {
+    text-align: center;
+}
+
+
+.rodape section:nth-child(1) {
+    padding: 50px 0;
+    background: #A60303;
+    background-image: url("https://www.transparenttextures.com/patterns/food.png");
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.rodape section div {
+    display: flex;
+    justify-content: space-evenly;
+    background: white;
+    border-radius: 30px;
+    padding: 15px;
+}
+
+.rodape section div div {
+    flex-direction: column;
+    width: 50%;
+}
+
+
+
+.rodape div div img {
+    width: 60%;
+    margin: 0 auto;
+    background: #BF0704;
+    border-radius: 10px;
+}
+
+
+.rodape div div:nth-child(3) img:nth-child(4) {
+    width: 100%;
+    background: none;
+}
+
+
+.rodape section:nth-child(1) h2 {
+    font-size: 32px;
+    letter-spacing: 0px;
+}
+
+.rodape h3 {
+    margin: 10px;
+    font-size: 1.2em;
+    line-height: 1.2em;
+}
+
+
+
+.rodape ul {
+    display: flex;
+    justify-content: center;
+}
+
+
+.rodape li {
+    margin: 0 2%;
+}
+
+.rodape ul li:nth-child(1) a {
+    display: block;
+
+}
+
+
+.rodape ul li a {
+    display: block;
+    width: 70px;
+}
+
+
+.rodape ul li a img {
+    width: 60%;
+    background: none;
+
+}
+
+.telefone {
+    display: flex;
+    justify-content: space-around !important;
+
+}
+
+/*-------------desenvolvido por-----------------*/
+
+.rodape section:nth-child(2) {
+    background: #477F3C;
+
+}
+
+
+.rodape section:nth-child(3) {
+    background: #477F3C;
+
+}
+
+
+.rodape section:nth-child(2) h2 {
+    color: black;
+    padding: 15px 0;
+}
+
+
+.rodape section:nth-child(3) h2 {
+    color: white;
+    padding: 15px 0;
+}
+
+
+
+/*-------------------Fim da Página Home--------------------*/
+/*#########################################################*/
+
+
+
+/*#########################################################*/
+/*-------------------Página Promoção---------------------------*/
+
+
+/*galeria de imagem pagina promoção*/
+
+
+.promocao {
+    padding: 50px 0;
+    text-align: center;
+    background: #ffffff;
+
+}
+
+.promocao h2 {
+    color: #BF0704;
+    font-size: 2.5em;
+    text-align: center;
+    padding: 3% 0 0;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+
+.promocao div {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+
+
+.promocao img {
+    padding-top: 15px;
+}
+
+
+ 
+/*galeria de imagem pagina promoção*/
+ 
+ 
+.galeriaPromo {
+    display: flex;
+    overflow: hidden;
+    justify-content: space-around;
+    margin: 5%;
+    height: auto;
+}
+ 
+/**********Seção cardapio***********************/
+.cardapioPromo{
+    display: flex;
+    justify-content: space-around;
+}
+.cardapioPromo ul li{
+    list-style: none;
+}
+.cardapioPromo div ul {
+    display: flex;
+}
+/**********************/
+
+
+
+/* Nossa promo de imagem pagina promoção*/
+.sobrePromocao {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.sobrePromocao h2 {
+    color: #BF0704;
+    text-transform: uppercase;
+    font-size: 1.8em;
+    font-family: 'Josefin Sans', sans-serif;
+    margin-bottom: 20px;
+
+}
+
+.sobrePromocao div div {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.sobrePromocao div div div {
+    width: 48%;
+    padding: 0 25px;
+}
+
+.sobrePromocao img {
+    width: 100%;
+    border-radius: 50px 0px 0px 50px;
+}
+
+.sobrePromocao div div div:nth-child(1) {
+    flex-direction: column;
+    padding-left: 25px;
+}
+
+.sobrePromocao div div div:nth-child(2) {
+    flex-direction: column;
+    padding-right: 25px;
+    justify-content: space-between;
+    background: #F2CB05;
+    border-radius: 0px 50px 50px 0px;
+}
+
+.sobrePromocao p {
+    color: #ffffff;
+    text-align: justify;
+    font-size: 1.2em;
+    line-height: 1.8em;
+    text-indent: 2em;
+
+}
+
+
+
+
+
+/*#########################################################*/
+/*-------------------Página Contato---------------------------*/
+
+
+
+.contato {
+    padding: 50px 0;
+    text-align: center;
+    background-color: #A60303;
+    background-image: url("https://www.transparenttextures.com/patterns/green-cup.png");
+
+}
+
+
+
+.contato h2 {
+    color: #F2CB05;
+    text-transform: uppercase;
+    font-size: 1.8em;
+    font-family: 'Josefin Sans', sans-serif;
+    margin-bottom: 20px;
+
+}
+
+
+.contato form {
+    display: flex;
+    background: #F2CB05;
+    border-radius: 50px;
+    justify-content: space-around;
+    padding: 4% 1.5%;
+}
+
+.contato form div {
+    width: 45%;
+}
+
+.contato form div div {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.contato form label {
+    color: #ffffff;
+    font-size: 1.8em;
+    margin-bottom: 2%;
+}
+
+.contato form input,
+.contato form textarea {
+    color: #000000;
+    border: solid 1px #34495e;
+    padding: 0.5em;
+    margin-bottom: 4%;
+
+}
+
+.contato form textarea {
+    resize: none;
+    height: 151px;
+
+}
+
+.btnContato {
+
+    justify-content: space-between;
+    flex-direction: row !important;
+}
+
+.contato form input[type="submit"],
+.contato form input[type="button"] {
+    background: #BF0704;
+    width: 40%;
+    cursor: pointer;
+    border-radius: 10px;
+    border: none;
+}
+
+.contato form input[type="submit"]:hover,
+.contato form input[type="button"]:hover {
+    background: #006900;
+    color: #ffffff;
+}
+
+
+.maps iframe{
+    width: 100%;
+}
+
+/*#########################################################*/
+
+/*-------------------Página Cardapio---------------------------*/
+
+.cardapio-pagina {
+    text-align: center;
+    background-color: #f5f5f5;
+    background-image: url("https://www.transparenttextures.com/patterns/concrete-wall.png");
+
+}
+
+.cardapio-pagina h2 {
+    font-size: 48px;
+    line-height: 70px;
+    font-weight: 800;
+    letter-spacing: 0px;
+    margin-bottom: 15px;
+}
+
+.menu-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+
+}
+
+.menu-button {
+    background-color: #970f0f;
+    color: #f7fbf9;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+.menu-button:hover {
+    background-color: #f1c40f;
+    color: #000000;
+}
+
+#pizza-details {
+    display: none;
+    margin-top: 20px;
+}
+
+#pizza-name {
+    font-size: 24px;
+    color: #333;
+}
+
+#pizza-description {
+    font-size: 16px;
+    color: #666;
+}
+
+#pizza-price {
+    font-size: 18px;
+    color: #222;
+}
+
+.menu-item {
+    margin-top: 20px;
+}
+
+/*  Estilo para as fotos das pizzas ficarem redondas */
+
+
+.menu-item-image {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+
+/* Adicione estilo para as colunas */
+.menu-columns {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.menu-column {
+    flex-basis: calc(50% - 10px);
+    /* 50% da largura com espaço entre as colunas */
+    margin-bottom: 20px;
+}
+
+.menu-title {
+    font-weight: bold;
+    font-size: 2em;
+    margin-top: 50px;
+
+}
+
+.menu-item h4 {
+    font-weight: bold;
+
+}
+
+
+.menu-item h3 {
+    font-weight: bold;
+    margin-bottom: 10px;
+    /* Feito um ajuste no valor conforme necessário */
+}
+
+/* Foi adicionado espaço entre a descrição e o valor */
+.menu-item-details p {
+    margin-bottom: 25px;
+    /* Feito um ajuste no valor conforme necessário */
+}
+
+
+
+
+/* Tela do Molho*/
+
+.molho{
+    background: white;
+    
+}
